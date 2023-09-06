@@ -1,0 +1,16 @@
+{
+  "@context": ["https://www.w3.org/ns/did/v1"],
+  "id": "did:web:tw-did.github.io:hidden",
+  "verificationMethod": [
+    {
+      "id": "did:web:tw-did.github.io:hidden#semaphore",
+      "type": "Semaphore2023",
+      "controller": "did:web:tw-did.github.io:hidden",
+      "publicKeyHex": "00000000000000"
+    }
+  ],
+  "authentication": ["did:web:tw-did.github.io:hidden#semaphore"],
+  "assertionMethod": ["did:web:tw-did.github.io:hidden#semaphore"],
+  "keyAgreement": [],
+  "service": []
+}
